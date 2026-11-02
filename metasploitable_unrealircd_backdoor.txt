@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Sat Oct 17 16:19:50 2026 as: /usr/lib/nmap/nmap --privileged -p 6667 --script irc-unrealircd-backdoor -oN /home/joker/metasploitable_unrealircd_backdoor.txt 192.168.56.102
+Nmap scan report for 192.168.56.102
+Host is up (0.0031s latency).
+
+PORT     STATE SERVICE
+6667/tcp open  irc
+|_irc-unrealircd-backdoor: Looks like trojaned version of unrealircd. See http://seclists.org/fulldisclosure/2010/Jun/277
+MAC Address: 08:00:27:9C:37:8F (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sat Oct 17 16:20:30 2026 -- 1 IP address (1 host up) scanned in 40.56 seconds
